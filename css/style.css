@@ -1,3 +1,4 @@
+/*-----------------UTILITIES-----------------*/
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +7,10 @@
 
 body{
     font-family: sans-serif;
+}
+
+/*-----------------2 COLONNE-----------------*/
+.colums{
+    display: flex;
+    flex-direction: column;
 }
