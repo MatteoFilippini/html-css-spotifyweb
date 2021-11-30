@@ -38,12 +38,13 @@ body{
 /* header */
 header{
     height: 100px;
-    background-color: yellow;
+    background-color: transparent;
     text-align: right;
     line-height: 100px;
 
     position: fixed;
     width: calc(100vw - 10%);
+    z-index: 1;
 }
 
 /* main */
