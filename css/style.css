@@ -81,9 +81,7 @@ footer{
     display: flex;
     color: white;
     justify-content: space-between;
-
-    margin-bottom: 10px;
-     
+    padding: 20px 10px;
 }
 
 /* left-part SONG */
@@ -92,8 +90,17 @@ footer{
 .song{
     display: flex;
     flex-grow: 1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
+
+/* album */
+.album{
+    background-image: url(../img/mixdaily.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
 /* author */
 .author{
     flex-direction: column;
@@ -111,6 +118,7 @@ footer{
 /* icons */
 .icons{
     flex-direction: column;
+    justify-content: center;
 }
 
 .icons i{
