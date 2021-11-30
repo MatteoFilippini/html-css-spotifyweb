@@ -83,6 +83,7 @@ footer{
     justify-content: space-between;
 
     margin-bottom: 10px;
+     
 }
 
 /* left-part SONG */
@@ -91,11 +92,20 @@ footer{
 .song{
     display: flex;
     flex-grow: 1;
-    border: 1px solid red;   
+    border: 1px solid red;
 }
 /* author */
 .author{
     flex-direction: column;
+}
+
+.author h4{
+    font-weight: bold;
+}
+
+.author span{
+    display: inline-block;
+    color: rgb(151, 147, 147);
 }
 
 /* icons */
@@ -105,4 +115,10 @@ footer{
 
 .icons i{
     margin-bottom: 5px;
+}
+
+/* center-part PLAY */
+.play{
+    width: 50%;
+    border: 1px solid green;
 }
