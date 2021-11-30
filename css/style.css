@@ -25,13 +25,13 @@ body{
 /* ---sidebar--- */
 .sidebar{
     width: 10%;
-    background-color: green;  
+    background-color: black;  
 }
 
 /* ---menu--- */
 .menu{
     flex-grow: 1;
-    background-color: blue;
+    background-color: rgb(21,21,21);
     overflow: auto;
 }
 
@@ -45,13 +45,13 @@ header{
     position: fixed;
     width: calc(100vw - 10%);
     z-index: 1;
+    color: white;
 }
 
 /* main */
 main{
     flex-grow: 1;
-    background-color: lightblue;
-
+    background-color: rgb(30, 30, 30);
     position: relative;
     top: 100px;
 }
@@ -61,5 +61,5 @@ main{
 /* footer */
 footer{
     flex-basis: 100px;
-    background-color: #000;
+    background-color: rgb(42, 42, 44);
 }
