@@ -15,25 +15,35 @@ body{
     flex-direction: column;
 }
 
-/* main menu */
+/*-------main menu/*-------*/
 .main-menu{
-    background-color: #f00;
     height: calc(100vh - 100px);
 
     display: flex;
 }
 
+/* ---sidebar--- */
 .sidebar{
     width: 10%;
     background-color: green;  
 }
 
+/* ---menu--- */
 .menu{
     flex-grow: 1;
     background-color: blue;
 }
 
-
+/* header */
+header{
+    height: 100px;
+    background-color: yellow;
+}
+/* main */
+main{
+    height: 100vh;
+    background-color: lightblue;
+}
 
 
 
