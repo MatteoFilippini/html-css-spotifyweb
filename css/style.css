@@ -82,9 +82,10 @@ footer{
     color: white;
     justify-content: space-between;
     padding: 20px 10px;
+    
 }
 
-/* left-part SONG */
+/* -------SONG left-part */
 
 /* album */
 .song{
@@ -125,8 +126,23 @@ footer{
     margin-bottom: 5px;
 }
 
-/* center-part PLAY */
+/* ------- PLAY center-part*/
 .play{
     width: 50%;
     border: 1px solid green;
+}
+
+/* --------VOLUME right-part */
+.volume{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.volume i{
+    margin-right: 10px;
+}
+
+.volume hr{
+    width: 100%;
 }
