@@ -1,0 +1,16 @@
+/*  BREAKOUT
+        mobile-fast 576px
+        768px -> si ingrandisce la sidebar
+        992px
+*/
+
+
+
+@media screen and (min-width: 768px){
+    .sidebar{
+        width: 300px;
+    }
+    header{
+        width: calc(100% - 300px);
+    }
+}
