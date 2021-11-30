@@ -15,11 +15,20 @@ body{
     flex-direction: column;
 }
 
+/* main menu */
 .main-menu{
     background-color: #f00;
     height: calc(100vh - 100px);
+
+    display: flex;
 }
 
+
+
+
+
+
+/* footer */
 footer{
     flex-basis: 100px;
     background-color: #000;
