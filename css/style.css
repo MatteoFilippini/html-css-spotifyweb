@@ -26,6 +26,7 @@ body{
 .sidebar{
     width: 50px;
     background-color: black;  
+    padding: 5px 10px;
 }
 
 img{
@@ -135,6 +136,33 @@ footer{
     width: 50%;
     border: 1px solid green;
 }
+.play{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/* UP */
+.tasks{ 
+    display: flex;   
+    margin-bottom: 20px;
+}
+
+.tasks i{
+    margin-right: 20px;
+}
+
+.song-sidebar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.song-sidebar hr{
+    display: flex;
+    flex-direction: row;
+}
+
+/* DOWN */
 
 /* --------VOLUME right-part */
 .volume{
