@@ -89,6 +89,13 @@ footer{
 .song{
     display: flex;
     flex-grow: 1;
-    border: 1px solid red;
-    
+    border: 1px solid red;   
+}
+
+.author{
+    flex-direction: column;
+}
+
+.icons{
+    flex-direction: column;
 }
