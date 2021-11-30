@@ -86,16 +86,23 @@ footer{
 }
 
 /* left-part SONG */
+
+/* album */
 .song{
     display: flex;
     flex-grow: 1;
     border: 1px solid red;   
 }
-
+/* author */
 .author{
     flex-direction: column;
 }
 
+/* icons */
 .icons{
     flex-direction: column;
+}
+
+.icons i{
+    margin-bottom: 5px;
 }
