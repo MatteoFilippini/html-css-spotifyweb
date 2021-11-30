@@ -28,6 +28,10 @@ body{
     background-color: black;  
 }
 
+img{
+    margin-bottom: 5px;
+}
+
 /* ---menu--- */
 .menu{
     flex-grow: 1;
