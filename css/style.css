@@ -38,10 +38,14 @@ body{
 header{
     height: 100px;
     background-color: yellow;
+
+    text-align: right;
+    line-height: 100px;
+    
 }
 /* main */
 main{
-    height: 100vh;
+    flex-grow: 1;
     background-color: lightblue;
 }
 
