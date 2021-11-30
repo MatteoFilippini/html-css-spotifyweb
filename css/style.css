@@ -23,6 +23,15 @@ body{
     display: flex;
 }
 
+.sidebar{
+    width: 10%;
+    background-color: green;  
+}
+
+.menu{
+    flex-grow: 1;
+    background-color: blue;
+}
 
 
 
