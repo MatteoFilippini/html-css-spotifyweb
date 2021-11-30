@@ -75,3 +75,7 @@ footer{
     flex-basis: 100px;
     background-color: rgb(42, 42, 44);
 }
+
+.play-menu{
+    display: flex;
+}
