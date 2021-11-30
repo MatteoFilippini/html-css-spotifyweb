@@ -39,17 +39,20 @@ body{
 header{
     height: 100px;
     background-color: yellow;
-
     text-align: right;
     line-height: 100px;
-    
+
+    position: fixed;
+    width: calc(100vw - 10%);
 }
+
 /* main */
 main{
     flex-grow: 1;
     background-color: lightblue;
 
-    
+    position: relative;
+    top: 100px;
 }
 
 
