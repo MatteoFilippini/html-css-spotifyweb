@@ -65,6 +65,20 @@ body{
     
 }
 
+#download{
+    background-image: url(../img/download.svg);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    
+}
+
+#profile{
+    background-image: url(../img/profile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    
+}
+
 
 /*
 
