@@ -207,7 +207,6 @@ main h1{
 
 .card{
     float: left;
-    border: 1px solid green;
     height: 300px;
     width: 200px;
     margin: 20px 10px;
@@ -215,7 +214,6 @@ main h1{
 }
 
 .card-image{
-    background-color: red;
     height: 200px;
     width: 200px;
 }
@@ -232,6 +230,29 @@ main h1{
     font-size: 16px;
 }
 
+#metal{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/metal_lifting.jpg);
+}
+
+#stranger{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/stranger.jpeg);
+}
+
+#quiet-place{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/aquietplace.jpeg);
+}
+
+#split{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/split.jpeg);
+}
 
 /*---------footer---------*/
 footer{
