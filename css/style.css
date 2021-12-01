@@ -26,8 +26,10 @@ body{
     width: 50px;
     background-color: black;  
     position: relative;
+    display: flex;
     flex-direction: column;
     padding: 5px;
+    justify-content: space-between;
 }
 
 /* .sidebar-icon{
@@ -65,18 +67,23 @@ body{
     
 }
 
+.bottom-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 #download{
     background-image: url(../img/download.svg);
     background-repeat: no-repeat;
     background-size: contain;  
-    
 }
 
 #profile{
     background-image: url(../img/profile.svg);
     background-repeat: no-repeat;
-    background-size: contain;  
-    
+    background-size: contain; 
+    justify-self: flex-end;    
 }
 
 
