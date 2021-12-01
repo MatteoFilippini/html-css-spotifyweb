@@ -37,32 +37,11 @@ body{
     height: 50px;
 }
 
-.sidebar-span{
-    display: none;
-    color: white;
-    margin-left: 10px;
-}
-
-.options{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid red;
-    align-items: center;
-}
-
-#logo-responsive{
-    background-image: url(../img/logo.svg);
-    background-repeat: no-repeat;
-    background-size: contain;  
-    display: none;
-    width: 300px;
-    height: 100px;
-}
-
 #logo{
     background-image: url(../img/logo-small.svg);
     background-repeat: no-repeat;
-    background-size: contain;    
+    background-size: contain; 
+    width: 40px; 
 }
 
 #home{
@@ -101,6 +80,38 @@ body{
     background-repeat: no-repeat;
     background-size: contain; 
     justify-self: flex-end;    
+}
+
+/* responsive */
+.sidebar-span{
+    display: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo-responsive{
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    display: none;
+    width: 300px;
+    height: 100px;
+}
+
+/* playlist */
+.central-sidebar h2{
+    color: white;
+    margin-bottom: 5px;
+}
+.fa-plus-square:before {
+    height: 100px;
+    width: 100px;
 }
 
 /* ---menu--- */
