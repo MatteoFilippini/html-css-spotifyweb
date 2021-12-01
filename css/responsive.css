@@ -7,10 +7,27 @@
 
 
 @media screen and (min-width: 768px){
+    /* SIDEBAR */
     .sidebar{
         width: 300px;
     }
+    .sidebar li{
+        height: 30px;
+        width: 30px;
+    }
+    /* HEADER    */
     header{
         width: calc(100% - 300px);
     }
+    /* logo (va via l'icona e arriva il logo) */
+    #logo{
+        display: none;
+    }
+    #logo-responsive{
+        display: inline-block;
+    }
+
+
+
+
 }
