@@ -105,13 +105,15 @@ body{
 }
 
 /* playlist */
-.central-sidebar h2{
+.central-sidebar h2,h3{
     color: white;
     margin-bottom: 5px;
 }
-.fa-plus-square:before {
-    height: 100px;
-    width: 100px;
+
+.sidebar-icon.plus{
+    color: white;
+    font-size: 60px;
+    margin-right: 10px;
 }
 
 /* ---menu--- */
