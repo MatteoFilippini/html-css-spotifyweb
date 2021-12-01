@@ -11,10 +11,6 @@
     .sidebar{
         width: 300px;
     }
-    .sidebar li{
-        height: 30px;
-        width: 30px;
-    }
     /* HEADER    */
     header{
         width: calc(100% - 300px);
