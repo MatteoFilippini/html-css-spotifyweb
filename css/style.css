@@ -101,13 +101,14 @@ body{
     background-size: contain;  
     display: none;
     width: 300px;
-    height: 100px;
+    height: 80px;
+    margin-bottom: 20px;
 }
 
 /* playlist */
-.central-sidebar h2,h3{
+.top-sidebar h2,h3{
     color: white;
-    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .sidebar-icon.plus{
@@ -115,6 +116,16 @@ body{
     font-size: 60px;
     margin-right: 10px;
 }
+
+.playlist{
+    display: none;
+    /* display: flex;   */
+    flex-direction: column; 
+}
+
+/* .playlist-song li{
+    color: white;
+} */
 
 /* ---menu--- */
 .menu{

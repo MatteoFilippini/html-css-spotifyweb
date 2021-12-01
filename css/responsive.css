@@ -27,11 +27,12 @@
         display: inline-block;
     }
     /* icone (compare la scritta)*/
-    
     .sidebar-span{
         display: inline-block;
     }
-
-
+    /* playlist */
+    .playlist{
+        display: flex;
+    }
 
 }
