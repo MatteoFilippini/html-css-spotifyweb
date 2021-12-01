@@ -15,6 +15,9 @@
     header{
         width: calc(100% - 300px);
     }
+    .sidebar{
+        padding: 20px;
+    }
     /* logo (va via l'icona e arriva il logo) */
     #logo{
         display: none;
