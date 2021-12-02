@@ -43,3 +43,21 @@
     opacity: 1;
     transform: translate(-50%, 50%);
 }
+
+/* progressbar */
+.progress-bar:hover .value{
+    background-color: #0f0;
+}
+
+.progress-bar:hover .cursor{
+    display: inline;
+}
+
+
+.progress-bar-volume:hover .value{
+    background-color: #0f0;
+}
+
+.progress-bar-volume:hover .cursor{
+    display: inline;
+}

@@ -363,12 +363,10 @@ footer{
     justify-content: space-between;
 }
 
-.linea{
-    flex-grow: 1;
+.linea{  
     padding: 0 5px;
     align-items: center;
-    display: flex;
-    
+    display: flex; 
     width: 100%;
     height: 100%;  
     background-color: transparent;
@@ -401,21 +399,6 @@ footer{
     transform: translate(50%, -50%);
 }
 
-.progress-bar:hover .value{
-    background-color: #0f0;
-}
-
-.progress-bar:hover .cursor{
-    display: inline;
-    width: 15px;
-    height: 15px;s
-}
-
-.cursor:hover{
-    
-}
-
-
 /* DOWN */
 
 /* --------VOLUME right-part */
@@ -431,6 +414,10 @@ footer{
     margin-right: 10px;
 }
 
-.volume hr{
+/* progressbar */
+.progress-bar-volume{
     width: 80px;
+    height: 3px;
+    background-color: gray;
+    position: relative;
 }
