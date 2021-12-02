@@ -286,8 +286,7 @@ footer{
 
 /* author */
 .author{
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .author h4{
@@ -295,8 +294,8 @@ footer{
 }
 
 .author span{
-    display: inline-block;
-    color: rgb(151, 147, 147);
+    font-size: 12px;
+    color: gray;
 }
 
 /* icons */

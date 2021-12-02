@@ -16,11 +16,16 @@
     color: white;
 }
 
-/* sidebar span */
+/* sidebar */
 .sidebar span:hover{
     color: white;
 }
 
 .sidebar li:hover{
     color: white;
+}
+
+/* footer */
+.author span:hover{
+    text-decoration: underline;
 }
