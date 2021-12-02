@@ -1,8 +1,8 @@
 /* 
        -Bottone header
-    -scritte e footer icon effeto neo
+        -scritte e footer icon effeto neo
     -icona play sopra le immagini
-    -nome brano sottolineato
+        -nome brano sottolineato
     -bare yts
 */
 
@@ -28,4 +28,12 @@
 /* footer */
 .author span:hover{
     text-decoration: underline;
+}
+
+.icons i:hover{
+    color: white;
+}
+
+#circle:hover {
+    font-size: 40px;
 }

@@ -95,6 +95,10 @@ body{
     margin-left: 10px;
 }
 
+#white{
+    color: white;
+}
+
 .options{
     display: flex;
     flex-direction: row;
@@ -286,7 +290,8 @@ footer{
 
 /* author */
 .author{
-    flex-direction: column;   
+    flex-direction: column;  
+    justify-content: center; 
 }
 
 .author h4{
@@ -306,6 +311,7 @@ footer{
 
 .icons i{
     margin-bottom: 5px;
+    color: gray;
 }
 
 /* ------- PLAY center-part*/
@@ -315,15 +321,23 @@ footer{
     align-items: center;
     flex-basis: 50%;
     flex-grow: 1;
+    justify-content: space-between;
 }
 
 /* UP */
 .tasks{ 
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
 }
 
 .tasks i{
-    margin-right: 20px;
+    font-size: 20px;
+}
+
+#circle{
+    font-size: 35px;
 }
 
 .song-sidebar{
