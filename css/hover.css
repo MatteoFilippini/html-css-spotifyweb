@@ -37,3 +37,9 @@
 #circle:hover {
     font-size: 40px;
 }
+
+/* immagini */
+.pic-container:hover .fa-play-circle{
+    opacity: 1;
+    transform: translate(-50%, 50%);
+}
