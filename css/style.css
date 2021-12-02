@@ -239,14 +239,13 @@ img{
     margin-top: 10px;
 }
 
-figure{
+/* figure{
     border-radius: 50%;
-    
     background-size: cover;
     background-repeat: no-repeat; 
-    width: 126px;
+    flex-basis: 50%;
     height: 126px;
-}
+} */
 
 #young{
     background-image: url(../img/youg.jpeg);
@@ -254,6 +253,10 @@ figure{
 
 #einaudi{
     background-image: url(../img/einaudi.jpeg);
+}
+
+.border-img{
+    border-radius: 50%;
 }
 
 /*---------footer---------*/
