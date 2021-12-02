@@ -239,6 +239,23 @@ img{
     margin-top: 10px;
 }
 
+figure{
+    border-radius: 50%;
+    
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 126px;
+    height: 126px;
+}
+
+#young{
+    background-image: url(../img/youg.jpeg);
+}
+
+#einaudi{
+    background-image: url(../img/einaudi.jpeg);
+}
+
 /*---------footer---------*/
 footer{
     height: 100px;
