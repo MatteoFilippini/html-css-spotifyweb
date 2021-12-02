@@ -50,6 +50,10 @@
     .card{
         flex-basis: 25%;
     }
+
+    .volume hr{
+        width: 100px;
+    }
 }
 
 @media screen and (min-width: 992px){
