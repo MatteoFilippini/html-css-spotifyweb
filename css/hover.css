@@ -1,0 +1,11 @@
+/* 
+    -Bottone header
+    -scritte e footer icon effeto neo
+    -icona play sopra le immagini
+    -nome brano sottolineato
+    -bare yts
+*/
+
+#btn-header:hover{
+    font-size: 20px;
+}
