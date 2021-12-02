@@ -227,12 +227,9 @@ li a{
     font-size: 30px;
 } 
 
-
-
-
 img{
     max-width: 100%;
-    display: block;
+    cursor: pointer;
 }
 
 .row{
@@ -341,13 +338,14 @@ footer{
     flex-basis: 50%;
     flex-grow: 1;
     justify-content: space-between;
+    max-width: 600px;
 }
 
 /* UP */
 .tasks{ 
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 150px;
     align-items: center;
 }
 
@@ -371,6 +369,7 @@ footer{
     align-items: center;
     display: flex;
     align-items: center;
+    
 }
 
 .linea hr{
@@ -381,7 +380,7 @@ footer{
 
 /* --------VOLUME right-part */
 .volume{
-    flex-grow: 1;
+    /* flex-grow: 1; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -394,5 +393,4 @@ footer{
 
 .volume hr{
     width: 80px;
-    /* flex-grow: 1; */
 }
