@@ -313,9 +313,6 @@ footer{
 
 /* ------- PLAY center-part*/
 .play{
-    width: 50%;
-}
-.play{
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -325,7 +322,6 @@ footer{
 
 /* UP */
 .tasks{ 
-    display: flex;   
     margin-bottom: 20px;
 }
 
@@ -335,12 +331,20 @@ footer{
 
 .song-sidebar{
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
-.song-sidebar hr{
+.linea{
+    flex-grow: 1;
+    padding: 0 5px;
+    align-items: center;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+.linea hr{
+    width: 100%;
 }
 
 /* DOWN */
