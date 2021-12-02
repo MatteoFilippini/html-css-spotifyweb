@@ -189,11 +189,6 @@ header{
     
 }
 
-/* .recent{
-    display: flex;
-    flex-wrap: wrap;
-} */
-
 ul{
     text-align: center;
 }
@@ -219,14 +214,7 @@ img{
     max-width: 100%;
 }
 
-.recent{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    margin: 0 -15px;
-}
-
-.create{
+.row{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
