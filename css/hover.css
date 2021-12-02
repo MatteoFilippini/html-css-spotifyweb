@@ -15,3 +15,12 @@
 .inside-menu a:hover{
     color: white;
 }
+
+/* sidebar span */
+.sidebar span:hover{
+    color: white;
+}
+
+.sidebar li:hover{
+    color: white;
+}
