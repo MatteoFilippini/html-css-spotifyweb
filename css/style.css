@@ -182,11 +182,7 @@ header{
     position: relative;
     top: 100px;
     padding: 20px;
-    height: 100vh;
-
-    /* display: flex;
-    flex-direction: column; */
-    
+    height: 100vh;    
 }
 
 ul{
@@ -201,7 +197,7 @@ ul li{
 
 li a{
     text-decoration: none;
-    color: white;
+    color: gray;
     font-size: 14px;   
 }
 
