@@ -19,29 +19,32 @@ body{
 .main-menu{
     height: calc(100vh - 100px);
     display: flex;
+    
 }
 
 /* ---sidebar--- 2.0*/ 
 .sidebar{
     width: 50px;
-    background-color: black;  
-    position: relative;
+    background-color: black; 
     display: flex;
     flex-direction: column;
     padding: 5px;
     justify-content: space-between;
+    overflow: auto;
+    flex-shrink: 0;
+    align-items: center;
 }
 
 .sidebar-icon{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 #logo{
     background-image: url(../img/logo-small.svg);
     background-repeat: no-repeat;
     background-size: contain; 
-    width: 40px; 
+    margin-bottom: 20px;
 }
 
 #home{
@@ -63,10 +66,8 @@ body{
     
 }
 
-.bottom-sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+#sidebar-hr{
+    display: none;
 }
 
 #download{
@@ -83,6 +84,11 @@ body{
 }
 
 /* responsive */
+.bottom-sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
 .sidebar-span{
     display: none;
     color: white;
@@ -100,15 +106,20 @@ body{
     background-repeat: no-repeat;
     background-size: contain;  
     display: none;
-    width: 300px;
+    width: 200px;
     height: 80px;
     margin-bottom: 20px;
 }
 
 /* playlist */
+
 .top-sidebar h2,h3{
     color: white;
     margin-top: 20px;
+}
+
+.top-sidebar h3{
+    margin-left: 20px;
 }
 
 .sidebar-icon.plus{
@@ -123,7 +134,7 @@ body{
 }
 
 .playlist-song ul{
-    margin-top: 20px;
+    margin-top: 40px;
     height: 200px;
     overflow: auto;
 }
@@ -135,9 +146,9 @@ body{
 
 /* ---menu--- */
 .menu{
-    flex-grow: 1;
-    /* background-color: rgb(21,21,21); */
+    background-color: rgb(21,21,21);
     overflow: auto;
+    flex-basis: 100%;
 }
 
 /* header */
@@ -167,15 +178,21 @@ header{
 }
 
 /* main */
-main{
-    flex-grow: 1;
-    /* background-color: red; */
-    background-color: rgb(30, 30, 30);
+.inside-menu{
     position: relative;
     top: 100px;
     padding: 20px;
     height: 100vh;
+
+    /* display: flex;
+    flex-direction: column; */
+    
 }
+
+/* .recent{
+    display: flex;
+    flex-wrap: wrap;
+} */
 
 ul{
     text-align: center;
@@ -190,32 +207,35 @@ ul li{
 li a{
     text-decoration: none;
     color: white;
-    font-size: 14px;
-    
+    font-size: 14px;   
 }
 
-main h1{
+ h2{
     color: white;
 }
 
 /* card */
-.card::before{
-    clear: both;
-    display: table;
-    content: '';
+img{
+    max-width: 100%;
+}
+
+.recent{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 -15px;
+}
+
+.create{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 -15px;
 }
 
 .card{
-    float: left;
-    height: 300px;
-    width: 200px;
-    margin: 20px 10px;
-    text-align: center;
-}
-
-.card-image{
-    height: 200px;
-    width: 200px;
+    flex-basis: 50%;
+    padding: 15px;
 }
 
 .card-title{
@@ -228,30 +248,7 @@ main h1{
 .card-desc{
     color: gray;
     font-size: 16px;
-}
-
-#metal{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../img/metal_lifting.jpg);
-}
-
-#stranger{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../img/stranger.jpeg);
-}
-
-#quiet-place{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../img/aquietplace.jpeg);
-}
-
-#split{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../img/split.jpeg);
+    margin-top: 10px;
 }
 
 /*---------footer---------*/
@@ -355,6 +352,7 @@ footer{
     flex-grow: 1;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .volume i{
@@ -362,5 +360,5 @@ footer{
 }
 
 .volume hr{
-    width: 100px;
+    width: 50px;
 }

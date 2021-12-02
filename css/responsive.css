@@ -1,22 +1,23 @@
 /*  BREAKOUT
         mobile-fast 576px
         768px -> si ingrandisce la sidebar
+        786px -> le immagini cambiano dimensione
         992px
 */
 
 
 
-@media screen and (min-width: 768px){
-    /* SIDEBAR */
-    .sidebar{
-        width: 300px;
-    }
+@media screen and (min-width: 576px){
+    
     /* HEADER    */
     header{
         width: calc(100% - 300px);
     }
+    /* SIDEBAR */
     .sidebar{
+        min-width: 300px;
         padding: 20px;
+        align-items: flex-start;
     }
     /* logo (va via l'icona e arriva il logo) */
     #logo{
@@ -29,9 +30,32 @@
     .sidebar-span{
         display: inline-block;
     }
+    .sidebar #sidebar-hr{
+        display: block;
+        margin: 5px 0;
+        width: 250px;
+    }
+
     /* playlist */
     .playlist{
         display: flex;
     }
-
+    li a{
+        font-size: 16px;   
+    }
 }
+
+@media screen and (min-width: 768px){
+    /* MAIN */
+    .card{
+        flex-basis: 25%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    /* MAIN */
+    .card{
+        flex-basis: calc(100% / 6);
+    }
+}
+
