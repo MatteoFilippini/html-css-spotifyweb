@@ -239,14 +239,6 @@ img{
     margin-top: 10px;
 }
 
-/* figure{
-    border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    flex-basis: 50%;
-    height: 126px;
-} */
-
 #young{
     background-image: url(../img/youg.jpeg);
 }
@@ -279,7 +271,6 @@ footer{
 .song{
     display: flex;
     margin-right: 20px;
-    /* border: 1px solid red; */
 }
 
 /* album */
@@ -296,7 +287,6 @@ footer{
 }
 
 /* author */
-
 .author{
     flex-direction: column;
     
@@ -357,7 +347,7 @@ footer{
 
 /* --------VOLUME right-part */
 .volume{
-    flex-grow: 0;
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -368,5 +358,6 @@ footer{
 }
 
 .volume hr{
-    width: 50px;
+    width: 80px;
+    /* flex-grow: 1; */
 }
